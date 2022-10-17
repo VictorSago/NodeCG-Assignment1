@@ -57,8 +57,8 @@ const server = http.createServer((req, res) => {
   }
   res.setHeader("Content-Type", "text/html");
   res.write("<html>");
-  res.write("<head><title>First Node Server Page</title></head>");
-  res.write("<body><h1>Node Server Active!</h1></body>");
+  res.write("<head><title>Page not Found</title></head>");
+  res.write("<body><h1>This page does not exist!</h1></body>");
   res.write("</html>");
   res.end();
 });
